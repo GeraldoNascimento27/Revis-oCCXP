@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    color: #FFFFFF ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 29px;
+}
+
+header {
+    background-color: #F3C61F;
+}
+
+header img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 30px;
+   
+}
+section{
+    display: grid;
+    grid-auto-flow: column;
+}
+#convite{
+    background-color:#514988 ;
+    text-align: center;
+    width: 800px;
+}
+#textConvite{
+    margin-left: 64px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+#textConvite h1{
+    color: #F3C61F ;
+    margin-bottom: 0;
+}
+#textConvite h2{
+    margin-bottom: 70px;
+}
+#countDow{
+    display: grid;
+    grid-auto-flow: column;
+}
