@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    color: #FFFFFF ;
+    color: #FFFFFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 29px;
 }
@@ -14,36 +14,65 @@ header img {
     margin-bottom: 30px;
     margin-left: 60px;
 }
-h1{
+
+h1 {
     font-size: 70px;
 }
-h2{
+
+h2 {
     font-size: 30px;
-   
+
 }
-section{
+
+section {
     display: grid;
     grid-auto-flow: column;
 }
-#convite{
-    background-color:#514988 ;
+
+#convite {
+    background-color: #514988;
     text-align: center;
-    width: 800px;
+    width: 880px;
+    height: 695px;
 }
-#textConvite{
+
+#textConvite {
     margin-left: 64px;
     margin-right: 60px;
     margin-top: 40px;
     margin-bottom: 50px;
 }
-#textConvite h1{
-    color: #F3C61F ;
+
+#textConvite h1 {
+    color: #F3C61F;
     margin-bottom: 0;
 }
-#textConvite h2{
+
+#textConvite h2 {
     margin-bottom: 70px;
 }
-#countDow{
+
+#cronoVideo {
+    display: grid;
+    grid-auto-flow: row;
+    color: #514988;
+    text-align: center;
+}
+
+#cronometro {
     display: grid;
     grid-auto-flow: column;
+}
+
+#cronoVideo h1 {
+    margin-bottom: 0;
+}
+
+#cronoVideo h2 {
+    color: #E33881;
+    margin-top: 0;
+}
+
+video {
+    width: 880px;
 }
