@@ -34,6 +34,8 @@ section {
     text-align: center;
     width: 880px;
     height: 695px;
+    margin: auto;
+    margin-left: 0;
 }
 
 #textConvite {
@@ -57,6 +59,8 @@ section {
     grid-auto-flow: row;
     color: #514988;
     text-align: center;
+    margin: auto;
+    margin-left: 0;
 }
 
 #cronometro {
@@ -75,4 +79,27 @@ section {
 
 video {
     width: 880px;
+}
+
+#ingressos {
+    color: #F3C61F;
+    text-align: center;
+}
+#garanta{
+    text-align: center;
+    margin: auto;
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+button{
+    width: 596px;
+    height: 148px;
+    left: 1004px;
+    top: 903px;
+
+    background: #514988;
+    border-radius: 20px;
+    color:#FFFFFF;
+    font-size: 42px;
+    font-weight: 700;
 }
